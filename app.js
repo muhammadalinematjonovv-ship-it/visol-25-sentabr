@@ -1,5 +1,5 @@
 const START = Date.parse('2026-09-16T00:00:00+05:00');
-const WEDDING = Date.parse('2026-09-25T12:00:00+05:00');
+const WEDDING = Date.parse('2026-09-25T19:00:00+05:00');
 function getCountdown(now) {
   const remaining = Math.max(0, Math.ceil((WEDDING - now) / 1000));
   const progress = Math.min(1, Math.max(0, (now - START) / (WEDDING - START)));
